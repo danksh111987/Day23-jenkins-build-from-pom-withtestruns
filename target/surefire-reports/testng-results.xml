@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="OrangeHRM" duration-ms="59753" started-at="2020-02-21T11:31:47Z" finished-at="2020-02-21T11:32:47Z">
+  <suite name="OrangeHRM" duration-ms="59462" started-at="2020-02-21T15:47:07Z" finished-at="2020-02-21T15:48:06Z">
     <groups>
       <group name="LoginGroup">
         <method signature="LoginTests.TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" class="com.orangehrm.tests.LoginTests"/>
       </group> <!-- LoginGroup -->
     </groups>
-    <test name="OrangeHRM test" duration-ms="59753" started-at="2020-02-21T11:31:47Z" finished-at="2020-02-21T11:32:47Z">
+    <test name="OrangeHRM test" duration-ms="59462" started-at="2020-02-21T15:47:07Z" finished-at="2020-02-21T15:48:06Z">
       <class name="com.orangehrm.tests.LoginTests">
-        <test-method status="FAIL" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="54643" started-at="2020-02-21T11:31:51Z" data-provider="excelData" finished-at="2020-02-21T11:32:45Z">
+        <test-method status="FAIL" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="57387" started-at="2020-02-21T15:47:08Z" data-provider="excelData" finished-at="2020-02-21T15:48:05Z">
           <params>
             <param index="0">
               <value>
@@ -60,8 +60,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DANKSH-PC', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\danksh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f2464496c5e3eb2a06aabde94c576e49
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\danksh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 38fa30e47a45e6de771b147880861b06
 *** Element info: {Using=id, value=welcome}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -94,7 +94,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1VerifyValidAdminUser -->
-        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="41409" started-at="2020-02-21T11:31:51Z" data-provider="excelData" finished-at="2020-02-21T11:32:32Z">
+        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="51414" started-at="2020-02-21T15:47:08Z" data-provider="excelData" finished-at="2020-02-21T15:47:59Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1VerifyValidAdminUser -->
-        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="46260" started-at="2020-02-21T11:31:51Z" data-provider="excelData" finished-at="2020-02-21T11:32:37Z">
+        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="TC1VerifyValidAdminUser" duration-ms="50649" started-at="2020-02-21T15:47:08Z" data-provider="excelData" finished-at="2020-02-21T15:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1VerifyValidAdminUser -->
-        <test-method status="PASS" signature="afterSuit()[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="afterSuit" is-config="true" duration-ms="924" started-at="2020-02-21T11:32:47Z" finished-at="2020-02-21T11:32:48Z">
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:com.orangehrm.tests.LoginTests@12050f6]" name="afterSuit" is-config="true" duration-ms="1056" started-at="2020-02-21T15:48:07Z" finished-at="2020-02-21T15:48:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->

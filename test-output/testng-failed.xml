@@ -6,7 +6,7 @@
       <class name="com.orangehrm.tests.LoginTests">
         <methods>
           <include name="afterSuit"/>
-          <include name="TC1VerifyValidAdminUser"/>
+          <include name="TC1VerifyValidAdminUser" invocation-numbers="2"/>
         </methods>
       </class> <!-- com.orangehrm.tests.LoginTests -->
     </classes>
