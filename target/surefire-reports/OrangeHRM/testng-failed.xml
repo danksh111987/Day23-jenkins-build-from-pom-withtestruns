@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OrangeHRM]">
+  <test thread-count="5" verbose="0" name="OrangeHRM test(failed)">
+    <classes>
+      <class name="com.orangehrm.tests.LoginTests">
+        <methods>
+          <include name="afterSuit"/>
+          <include name="TC1VerifyValidAdminUser" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.LoginTests -->
+    </classes>
+  </test> <!-- OrangeHRM test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->
